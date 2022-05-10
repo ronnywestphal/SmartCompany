@@ -1,0 +1,63 @@
+.horizont div {
+    float: left;
+    clear: none;
+}
+.button1 {
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid rgba(245, 245, 245, 0.692);
+}
+.button1:hover {
+    background-color: rgba(240,240,240,0.75);
+    color: black;
+}
+.button2 {
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid rgba(240, 240, 240, 0.692);
+}
+.button2:hover {
+    background-color: rgba(240,240,240,0.75);
+    color: black;
+}
+
+table {
+    background-color: rgba(240,240,240,0.75);
+    
+    width: 200px;
+    border-collapse: collapse;
+        
+    }
+thead{ background-color: rgba(255,255,255,0.75);}
+tbody{ background-color: rgba(255, 255, 255, 0.751);}
+th,td {text-align: left; width: 50%}
+th{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgba(230,230,230,0.85);   
+}
+
+table.wide {
+    background-color: rgba(240,240,240,0.75);
+    
+    width: 100px;
+    height: auto;
+    border-collapse: collapse;
+
+}
+thead.wide{ background-color: rgba(255,255,255,0.75);}
+tbody.wide{ background-color: rgba(255, 255, 255, 0.751);}
+table.wide th,td {text-align: left; width: auto;}
+table.wide th{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgba(230,230,230,0.85);   
+}

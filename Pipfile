@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "*"
+django-plotly-dash = "*"
+numpy = "*"
+requests = "*"
+bs4 = "*"
+pandas = "*"
+paho-mqtt = "*"
+django-pandas = "*"
+django-floppyforms = "*"
+django-crontab = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[packages.00b876c]
+file = "https://github.com/pallets/werkzeug/archive/refs/tags/2.0.1.tar.gz"
+
+[packages.11cb3ea]
+file = "https://github.com/chrisdev/django-pandas/tarball/master"

@@ -1,0 +1,14 @@
+table{
+    background-color: rgba(255, 255, 255, 0.705);
+    
+    width: 500px;
+    border-collapse: collapse;
+        
+    }
+thead{ background-color: rgba(255, 255, 255, 0.705);}
+th,td {text-align: left; width: 14%}
+th{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgba(235, 235, 235, 0.192);   
+}
