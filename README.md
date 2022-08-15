@@ -16,7 +16,7 @@ The core functionality of the system is handled by the Django Web Application.
   - manually control the components priority- and output levels
 
 ## Testing Circuit
-The circuit is connected to a wall outled but is also partially powered by solar panels and it was built to simulate a company's energy consumption. INA219 chips and an ESP32 were used to measure the effect and voltage in the circuits components.
+The circuit is connected to a wall outlet but is also partially powered by solar panels and it was built to simulate a company's energy consumption. INA219 chips and an ESP32 were used to measure the effect and voltage in the circuits components.
 
 ## MQTT Protocol
 MQTT was used to communicate wirelessly between the circuit and the web application. The ESP32 transmitted/received data to/from a RPI4 that was in a separate network using Dynamic DNS. The RPI4 forwarded/received data to/from the web application. The MQTT subscriber client on the web application needs to run in a separate thread to avoid it blocking the rest of the application. 
